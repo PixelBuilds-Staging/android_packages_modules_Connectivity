@@ -13,7 +13,6 @@
 // limitations under the License.
 
 package {
-    default_team: "trendy_team_fwk_core_networking",
     default_applicable_licenses: ["Android-Apache-2.0"],
 }
 
@@ -31,7 +30,5 @@ android_test_helper_app {
         "net-tests-utils",
     ],
     host_required: ["net-tests-utils-host-common"],
-    lint: {
-        strict_updatability_linting: true,
-    },
+    lint: { strict_updatability_linting: true },
 }
